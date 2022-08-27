@@ -9,9 +9,9 @@ import { ThemeProvider } from "@mui/system";
 // import Thanks from "./components/Thanks"
 
 export const config = {
-  endpoint: `
-https://q-kart-frontend-niroopam.herokuapp.com/api/v1`,
+  endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
 };
+
 
 function App() {
   return (
