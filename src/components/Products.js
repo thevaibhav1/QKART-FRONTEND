@@ -26,9 +26,24 @@ const Products = () => {
 
   return (
     <div>
-      <Header>
-
-      </Header>
+         <Header hasHiddenAuthButtons={true}>
+               {/* Search view for desktop */}
+               <TextField
+               className="search-desktop"
+               size="small"
+               InputProps={{
+                className:"search",
+                 endAdornment: (
+                   <InputAdornment position="end">
+                     <Search color="primary" />
+                   </InputAdornment>
+                 ),
+               }}
+               placeholder="Search for items/categories"
+               name="search"
+              //  onChange={(event)=> debounceSearch(event,500)}
+             />
+             </Header>
 
        <Grid container>
          <Grid item className="product-grid">
