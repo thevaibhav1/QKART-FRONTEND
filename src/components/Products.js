@@ -86,7 +86,7 @@ const Products = () => {
 
   useEffect(()=>{
   performAPICall();
-  // fetchCart(localStorage.getItem("token"))  
+  fetchCart(localStorage.getItem("token"))  
   },[])
    
   
