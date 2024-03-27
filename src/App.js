@@ -7,9 +7,9 @@ import theme from "./theme";
 import { ThemeProvider } from "@mui/system";
 import Checkout from "./components/Checkout"
 import Thanks from "./components/Thanks"
-
+// api/v1
 export const config = {
-  endpoint: `https://qkart-frontend-10.onrender.com/api/v1`,
+  endpoint: `https://qkart-frontend-10.onrender.com`,
 };
 
 
