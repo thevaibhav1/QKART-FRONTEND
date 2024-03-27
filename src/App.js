@@ -9,7 +9,7 @@ import Checkout from "./components/Checkout"
 import Thanks from "./components/Thanks"
 
 export const config = {
-  endpoint: `https://vaibhav-qkart-frontend.herokuapp.com/api/v1`,
+  endpoint: `https://qkart-frontend-10.onrender.com/api/v1`,
 };
 
 
